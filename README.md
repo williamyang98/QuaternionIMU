@@ -26,6 +26,7 @@ If we take our original accelerometer or magnetometer measurement at our origina
 ![equation](https://latex.codecogs.com/svg.latex?%5Cbegin%7Balign%7D%20%5Coverrightarrow%7Bv%7D%20%26%3D%20%5Bv_x%2C%20v_y%2C%20v_z%5D%5ET%20%5Cnotag%20%5C%5C%20%5Coverrightarrow%7Bb%7D%20%26%3D%20%5Bb_x%2C%20b_y%2C%20b_z%5D%5ET%20%5Cnotag%20%5C%5C%20%5Cbegin%7Bbmatrix%7D%20b_x%20%5C%5C%20b_y%20%5C%5C%20b_z%20%5Cend%7Bbmatrix%7D%20%26%3D%20%5Cbegin%7Bbmatrix%7D%20%28e_0%5E2&plus;e_1%5E2-e_2%5E2-e_3%5E2%29%20%26%202%28e_1%20e_2%20&plus;%20e_0%20e_3%29%20%26%202%28e_1%20e_3%20-%20e_0%20e_2%29%20%5C%5C%202%28e_1%20e_2%20-%20e_0%20e_3%29%20%26%20%28e_0%5E2-e_1%5E2&plus;e_2%5E2-e_3%5E2%29%20%26%202%28e_2%20e_3%20&plus;%20e_0%20e_1%29%20%5C%5C%202%28e_1%20e_3%20&plus;%20e_0%20e_2%29%20%26%202%28e_2%20e_3%20-%20e_0%20e_1%29%20%26%20%28e_0%5E2-e_1%5E2-e_2%5E2&plus;e_3%5E2%29%20%5Cend%7Bbmatrix%7D%20%5Cbegin%7Bbmatrix%7D%20v_x%20%5C%5C%20v_y%20%5C%5C%20v_z%20%5Cend%7Bbmatrix%7D%20%5Cnotag%20%5Cend%7Balign%7D)
 
 Our measurements are the body relative acceleration and magnetic heading vectors.
+
 ![equation](https://latex.codecogs.com/svg.latex?%5Cbegin%7Balign%7D%20y%20%26%3D%20%5Cbegin%7Bbmatrix%7D%20b_M%20%5C%5C%20b_A%20%5Cend%7Bbmatrix%7D%20%5Cnotag%20%5C%5C%20y%20%26%3D%20h%28x%2Cu%29%20%5Cnotag%20%5Cend%7Balign%7D)
 
 ## Extended Kalman Filter
