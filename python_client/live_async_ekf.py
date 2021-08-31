@@ -153,7 +153,9 @@ async def main(args):
 
     # measurement and ekf
     ekf_client = EKFClient()
-    ekf_client.ekf.Q = 1e-1*np.eye(4)
+    ekf_client.ekf.Q = 1e-3*np.eye(4)
+    ekf_client.Ra = 1e-1*np.eye(3)
+    ekf_client.Rm = 1e-1*np.eye(3)
     ekf_client.use_paired_measurements = False
     ekf_client.is_calibrating = False
     ekf_converter = MeasurementConverter()
